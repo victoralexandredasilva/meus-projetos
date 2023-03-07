@@ -10,12 +10,15 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
-
 }
 
 body,html {
     background-color: rgba(0, 0, 0, 0.674);
-    height: 135vh;
+}
+
+body {
+     width: 96vw;
+     height: 135vh;
 }
 
 header#port {
