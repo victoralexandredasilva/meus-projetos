@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:320px) {
     
 
 * {
@@ -12,16 +12,13 @@
     color: #fff;
 }
 
-body,html {
-    background-color: rgba(0, 0, 0, 0.674);
-}
-
 body {
-     width: 96vw;
-     height: 135vh;
+    background-color: rgb(65, 64, 64);
+    height: 100vh;
 }
 
 header#port {
+    width:100%;
     text-align: center;
     padding: 20px 0px;
 }
@@ -35,110 +32,27 @@ header#port > h1 > a {
     text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .itens {
+    margin-bottom: 20px;
     line-height: 50px;
-
 }
+
 .itens > nav > ul > li {
-    background-color: #000;
-    margin-bottom: 5px
+    background-color: black;
+    margin-bottom: 1px;
 }
 
 .itens > nav > ul > li:hover {
-    background-color: #fff;
+    background-color: rgb(163, 162, 162);
 }
 
 .itens > nav > ul > li > a {
-  text-decoration: none;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+    text-decoration: none;
 }
 
 .itens > nav > ul > li > a:hover {
-    color: #000;
+    text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 section#port { 
@@ -146,25 +60,26 @@ section#port {
 }
 
 section#port > .principal > .imagem-perfil {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     margin: 30px 0 ;
     margin-top: -20px;
 }
 
 section#port > .principal > .tit > h1 { 
-    font-size: 25pt;
+    font-size: 23pt;
     margin-bottom: 5px;
 }
 
 section#port > .principal > .subt > h1 { 
-    font-size: 16pt;
+    font-size: 15pt;
 }
 
 section#port > .principal > .par > p {
     margin-top: 20px;
     margin-bottom: 30px;
+    font-size: 10pt;
 }
 
 section#port > .principal > .link > a {
