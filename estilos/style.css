@@ -88,9 +88,9 @@ section#port > .principal > .text > .subt > h1 {
     font-size: 15pt;
 }
 
-section#port > .principal > .par > p {
+section#port > .principal > .text > .par > p {
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-size: 10pt;
 }
 
@@ -101,7 +101,6 @@ section#port > .principal > .text > .link > a {
     border-radius: 20px;
     text-decoration: none;
 }
-
 
 section#port > .principal > .text > .link > a:hover {
     background-color: rgb(9, 50, 145);
@@ -228,6 +227,7 @@ header#port{
 
    section#port > .principal > .text > .par > p {
     font-size: 12pt;
+
    }
 
    i#burger {
