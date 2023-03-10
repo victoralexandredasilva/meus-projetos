@@ -8,21 +8,22 @@
 
     <link rel="stylesheet" href="estilos/style.css">
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
-<body>
+<body onresize="mudouTamanho">
     <header id="port">
 
         <h1><a href="">Portfolio</a></h1>
-
-        <menu class="itens">
-            <nav>
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+   
                 <ul>
-                    <!-- <li>menu</li> -->
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Works</a></li>
                     <li><a href="#">Contacts</a></li>
                 </ul>
-            </nav>
+
         </menu>
     </header>
 
@@ -30,21 +31,25 @@
     <section id="port">
         <div class="principal">
             <img class="imagem-perfil" src="imagens/foto-minha.jpg" alt="foto-minha">
-            <div class="tit">
-                <h1>Hello! I'm Victor!</h1>
+            <div class="text">
+                <div class="tit">
+                    <h1>Hello! I'm Victor!</h1>
+                </div>
+                <div class="subt">
+                    <h1>Front-end Developer</h1>
+                </div>
+                <div class="par">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam reprehenderit, magni unde modi amet nemo veniam itaque, tempora delectus est ipsum illum alias veritatis dolor nulla quos doloremque velit accusamus.
+                    </p>
+                </div>
+                <div class="link">
+                    <a href="#">My Works</a>
+                </div> 
             </div>
-            <div class="subt">
-                <h1>Front-end Developer</h1>
-            </div>
-            <div class="par">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam reprehenderit, magni unde modi amet nemo veniam itaque, tempora delectus est ipsum illum alias veritatis dolor nulla quos doloremque velit accusamus.
-                </p>
-            </div>
-            <div class="link">
-                <a href="#">My Works</a>
-            </div> 
+           
         </div>
     </section>
 </body>
+<script src="script.js"></script>
 </html>
