@@ -144,7 +144,6 @@ header#work h1 {
     margin: auto;
     font-size: 13pt;
     width: 90vw;
-    vertical-align: middle;
 }
 
 .projetos h2 {
@@ -164,7 +163,7 @@ header#work h1 {
 .projetos img {
     display: block;
     margin: auto;
-    width: 450px;
+    width: 90vw;
     margin-top: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.567);
     border-radius: 5px;
@@ -203,220 +202,595 @@ footer a:hover {
     text-decoration: underline;
 }
 
+.linkworkmq {
+    display: none;
 }
+
+/*Página Works*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(65, 64, 64);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header#cont {
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+header#cont h1 {
+    font-size: 23pt;
+}
+
+section#cont {
+    text-align: center;
+}
+
+.wpp, .insta, .linkedin, .git {
+    margin-bottom: 50px;
+}
+
+section#cont img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+section#cont p {
+    font-size: 10pt;
+}
+
+div.mq {
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
                                         /*Tablets*/
 
 @media screen and (min-width:768px) and (max-width: 1150px) {
-    body {
-        background-color: rgb(65, 64, 64);
-        font-family: Arial, Helvetica, sans-serif;
-        overflow-y: hidden;
-    }
-                            /*Pagina Portfolio*/
-header#port{
-    margin-bottom: 10vh;
-}
+   /*Página Portfolio*/
 
-   header#port > h1 {
-    width: 200px;
-    text-align: center;
+   *{
+    margin: 0px;
+    padding: 0px;
    }
 
-   header#port > h1 > a {
-    text-decoration: none;
+   body{
+    background-color: rgb(65, 64, 64);
+    font-family: Arial, Helvetica, sans-serif;
     color: #fff;
-    font-size: 20pt;
    }
 
-   header#port > menu#itens {
-    width: calc(100vw - 345px);
-    margin-left: 280px;
-    text-align: right;
-    transform: translateY(-9vh);
-   }
-
-   header#port > menu#itens > ul > li {
-    display: inline-block;
+   header#port {
+    margin-bottom: 150px;
     padding: 10px;
-    margin-left: 10px;
-    padding-left: 30px;
-    text-align: center;
-    margin-left: 0px;
-    padding-right: 0px;
-    margin-right: 50px;
-}
-
-   header#port > menu#itens > ul > li > a {
-    text-decoration: none;
-    font-size: 13pt;
-    color: #fff;
-   }
-
-
-   header#port > menu#itens > ul > li > a:hover {
-    text-decoration: underline;
-   }
-
-   section#port > .principal > .imagem-perfil {
-    height: 330px;
-    width: 330px;
-    border-radius: 50%;
-    margin: 30px 0 ;
-    margin-top: 10px;
-    margin-left: 40px;
-}
-   section#port > .principal > .text {
-    width: 350px;
-    color: #fff;
-    text-align: left;
-    margin-left: 52vw;
-    transform: translateY(-40vh)
-   }
-
-   section#port > .principal > .text > .tit > h1 {
-    font-size: 27pt;
-    margin-bottom: -15px;
-   }
-
-   section#port > .principal > .text > .subt > h1 {
-    font-size: 17pt;
-   }
-
-   section#port > .principal > .text > .par > p {
-    font-size: 12pt;
-
    }
 
    i#burger {
     display: none;
    }
 
-   section#port > .principal > .text > .link {
-    margin-left: 50px;
-   }
-   section#port > .principal > .text > .link > a {
-    background-color: rgb(0, 76, 255);
+   header#port > h1 > a  {
     color: #fff;
-    padding: 1.5% 25%;
-    font-size: 14pt;
+    width: 300px;
+    text-decoration: none;
+   }
+
+   header#port ul { 
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: -30px;
+    margin-left: 65vw;
+   }
+
+   header#port li {
+    margin-right: 50px;
+   }
+
+   header#port li a {
+    color: #fff;
+    text-decoration: none;
+   }
+
+   header#port li a:hover {
+    text-decoration: underline;
+   }
+
+   section#port img {
+    width: 40vw;
+    border-radius: 50%;
+    margin-left: 35px;
+   }
+
+   section#port .text {
+    width: 40vw;
+    line-height: 23px;
+    margin-top: -250px;
+    margin-left: 47.5vw;
+   }
+
+   section#port > .principal > .text > .tit > h1 {
+    font-size: 25pt;
+    margin-bottom: 10px;
+   }
+
+   section#port > .principal > .text > .subt > h1 {
+    font-size: 15pt;
+    margin-bottom: 5px;
+   }
+
+   section#port > .principal > .text > .par > p {
+    margin-bottom: 20px;
+   }
+
+   .link a {
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13pt;
+    padding: 6px;
+    padding-left: 100px;
+    padding-right: 100px;
     border-radius: 20px;
+   }
+
+    .link a:hover {
+        background-color: rgb(9, 50, 145);
+   }
+
+/*Página Works*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body#work {
+    background-color: rgb(65, 64, 64);
+    color: #fff;
+    overflow: visible;
+}
+
+header#work {
+    font-size: 12pt;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header#work h1 {
+    font-size: 22pt;
+    margin-bottom: -80px;
+}
+
+.projetos {
+    margin-top: 50px;
+}
+
+.titlemain {
+    font-size: 20pt;
+    font-style: italic;
+    background-image: linear-gradient(to right, dimgray, rgb(135, 130, 130));
+    color: #d7d3d3;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+.textmain {
+    text-align: justify;
+    margin: auto;
+    font-size: 13pt;
+    width: 90vw;
+    margin-bottom: 120px;
+}
+
+footer {
+    background-color: #272626;
+    padding: 5px;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.projetos img {
+    display: inline;
+    margin: auto;
+    width: 52vw;
+    height: 40vh;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.567);
+    border-radius: 5px;
+    margin-left: 20px;
+    transform: translateY(-275px);
+
+}
+
+.textsect {
+    width: 40vw;
+    margin-left: 57vw;
+} 
+
+.projetos {
+    margin-bottom: -200px;
+}
+
+.linkworkmq a {
+    display: block;
+    margin-top: 20px;
+    width: 25vw;
+    background-color: blue;
+    text-align: center;
+    padding: 5px;
+    margin-left: 50px;
+    border-radius: 20px;
+    color: #fff;
     text-decoration: none;
 }
 
-
-section#port > .principal > .text > .link > a:hover {
-    background-color: rgb(9, 50, 145);
+.linkworkmq a:hover {
+    background-color:rgb(9, 50, 145);
 }
 
+.linkwork {
+    display: none;
 }
+
+footer{
+    margin-top: 280px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/*Página Contatos*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(65, 64, 64);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header#cont {
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+header#cont h1 {
+    font-size: 28pt;
+}
+
+section#cont {
+    text-align: center;
+}
+
+.wpp, .insta, .linkedin, .git {
+    margin-bottom: 50px;
+}
+
+.linkedin {
+    margin-bottom: -200px;
+}
+
+section#cont img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+section#cont p {
+    font-size: 10pt;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                              /*Telas Grandes*/
 
 
 @media screen and (min-width:1150px) {
-    body {
+    /*Página Portfolio*/
+
+    *{
+        margin: 0px;
+        padding: 0px;
+       }
+    
+       body{
         background-color: rgb(65, 64, 64);
         font-family: Arial, Helvetica, sans-serif;
-        overflow-y: hidden;
-    }
-                            /*Pagina Portfolio*/
-   header#port > h1 {
-    width: 200px;
-    text-align: center;
-   }
+        color: #fff;
+       }
+    
+       header#port {
+        margin-bottom: 50px;
+        padding: 20px;
+       }
+    
+       i#burger {
+        display: none;
+       }
+    
+       header#port > h1 > a  {
+        color: #fff;
+        text-decoration: none;
+        width: 300px;
+       }
+    
+       header#port ul { 
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        margin-top: -30px;
+        margin-left: 72vw;
+       }
+    
+       header#port li {
+        margin-right: 50px;
+       }
 
-   header#port > h1 > a {
-    text-decoration: none;
+       header#port li a {
+        font-size: 15pt;
+        color: #fff;
+        text-decoration: none;
+       }
+
+       header#port li a:hover {
+        text-decoration: underline;
+
+       }
+    
+       section#port img {
+        width: 35vw;
+        border-radius: 50%;
+        margin-left: 80px;
+       }
+    
+       section#port .text {
+        width: 40vw;
+        line-height: 30px;
+        margin-top: -350px;
+        margin-left: 47.5vw;
+       }
+    
+       section#port > .principal > .text > .tit > h1 {
+        font-size: 30pt;
+        margin-bottom: 10px;
+       }
+    
+       section#port > .principal > .text > .subt > h1 {
+        font-size: 20pt;
+        margin-bottom: 5px;
+       }
+
+       section#port > .principal > .text > .par > p {
+        font-size: 13pt;
+        margin-bottom:20px;
+       }
+
+       .link a {
+        background-color: blue;
+        color: #fff;
+        text-decoration: none;
+        font-size: 15pt;
+        padding: 10px;
+        padding-left: 100px;
+        padding-right: 100px;
+        border-radius: 20px;
+       }
+
+        .link a:hover {
+            background-color: rgb(9, 50, 145);
+       }
+
+
+
+/*Página Works*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body#work {
+    background-color: rgb(65, 64, 64);
     color: #fff;
-    font-size: 25pt;
-   }
-
-   header#port > .itens {
-    padding-left: 0;
-    margin-left: 201px;
-    text-align: right;
-    transform: translateY(-59px);
-   }
-
-   header#port > menu#itens {
-    width: calc(100vw - 350px);
-    font-size: 14pt;
-    margin-left: 240px;
-    text-align: right;
-    transform: translateY(-8vh);
-   }
-
-   header#port > menu#itens > ul > li {
-    display: inline-block;
-    padding: 10px;
-    margin-left: 10px;
-    padding-left: 30px;
-    text-align: center;
-    margin-left: 0px;
-    padding-right: 0px;
-    margin-right: 50px;
+    overflow: visible;
 }
 
-   header#port > menu#itens > ul > li > a {
-    text-decoration: none;
-    font-size: 13pt;
-    color: #fff;
-   }
-
-
-   header#port > menu#itens > ul > li > a:hover {
-    text-decoration: underline;
-   }
-
-   section#port > .principal > .imagem-perfil {
-    height: 520px;
-    width: 520px;
-    border-radius: 50%;
-    margin: 30px 0 ;
-    margin-top: 10px;
-    margin-left: 100px;
+header#work {
+    font-size: 12pt;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-   section#port > .principal > .text {
-    width: 500px;
-    color: #fff;
-    text-align: left;
-    margin-left: 58vw;
-    transform: translateY(-60vh)
-   }
 
-   section#port > .principal > .text > .tit > h1 {
-    font-size: 35pt;
-    margin-bottom: -15px;
-   }
+header#work h1 {
+    font-size: 22pt;
+    margin-bottom: -80px;
+}
 
-   section#port > .principal > .text > .subt > h1 {
+.projetos {
+    margin-top: 50px;
+}
+
+.titlemain {
     font-size: 20pt;
-   }
+    font-style: italic;
+    background-image: linear-gradient(to right, dimgray, rgb(135, 130, 130));
+    color: #d7d3d3;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
 
-   section#port > .principal > .text > .par > p {
+.textmain {
+    text-align: justify;
+    margin: auto;
     font-size: 13pt;
-   }
+    width: 61vw;
+    margin-bottom: 120px;
+}
 
-   i#burger { 
-    display: none;
-   }
+footer {
+    background-color: #272626;
+    padding: 5px;
+    margin-top: 10vh;
+    text-align: center;
+}
 
-   section#port > .principal > .text > .link {
-    margin-left: 50px;
-   }
+.projetos img {
+    display: inline;
+    margin: auto;
+    width: 55vw;
+    height: 60vh;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.567);
+    border-radius: 5px;
+    margin-left: 20px;
+    transform: translateY(-350px);
 
-   section#port > .principal > .text > .link > a {
-    background-color: rgb(0, 76, 255);
-    color: #fff;
-    padding: 1.5% 25%;
+}
+
+.textsect {
+    width: 37vw;
+    margin-left: 60vw;
+}
+
+.textsect h2 {
+    font-size: 25pt;
+}
+
+.textsect p {
     font-size: 14pt;
+}
+
+.projetos {
+    margin-bottom: -200px;
+}
+
+.linkworkmq a {
+    display: block;
+    margin-top: 20px;
+    width: 25vw;
+    background-color: blue;
+    text-align: center;
+    padding: 8px;
+    font-size: 13pt;
+    margin-left: 50px;
     border-radius: 20px;
+    color: #fff;
     text-decoration: none;
 }
 
-
-section#port > .principal > .text > .link > a:hover {
+.linkworkmq a:hover {
     background-color: rgb(9, 50, 145);
 }
+
+.linkwork {
+    display: none;
 }
 
+footer {
+    margin-top: 170px;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/*Página Contatos*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(65, 64, 64);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header#cont {
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+header#cont h1 {
+    font-size: 28pt;
+}
+
+section#cont {
+    text-align: center;
+}
+
+.wpp, .insta, .linkedin, .git {
+    margin-bottom: 50px;
+}
+
+.linkedin {
+    margin-bottom: -200px;
+}
+
+section#cont img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+section#cont p {
+    font-size: 10pt;
+}
+
+footer{
+    margin-top: 280px;
+}
+
+}
