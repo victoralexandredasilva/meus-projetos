@@ -3,6 +3,7 @@
 
 @media screen and (max-width:768px) {
     
+                        /*Mobile*/
 
 * {
     margin: 0;
@@ -12,12 +13,12 @@
     color: #fff;
 }
 
-body {
+body#port {
     background-color: rgb(65, 64, 64);
     height: 100vh;
     overflow-y: hidden;
 }
-
+                            /*Pagina Portfolio*/
 header#port {
     width:100%;
     text-align: center;
@@ -105,49 +106,106 @@ section#port > .principal > .text > .link > a {
 section#port > .principal > .text > .link > a:hover {
     background-color: rgb(9, 50, 145);
 }
+
+
+                            /*Página Works*/
+body#work {
+    background-color: rgb(65, 64, 64);
 }
 
+header#work {
+    font-size: 12pt;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+header#work h1 {
+    font-size: 22pt;
+    margin-bottom: -80px;
+}
 
+.projetos {
+    margin-top: 50px;
+}
 
+.titlemain {
+    font-size: 20pt;
+    font-style: italic;
+    background-image: linear-gradient(to right, dimgray, rgb(135, 130, 130));
+    color: #d7d3d3;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
 
+.textmain {
+    text-align: justify;
+    margin: auto;
+    font-size: 13pt;
+    width: 90vw;
+    vertical-align: middle;
+}
 
+.projetos h2 {
+    background-image: linear-gradient(to right, rgb(149, 145, 145), rgb(149, 147, 147));
+    padding-left: 15px;
+    margin-bottom: 12px; 
+    text-shadow: 0px 0px 10px black;   
+}
 
+.projetos p {
+    font-size: 11pt;
+    text-align: justify;
+    width: 90vw;
+    margin: auto;
+}
 
+.projetos img {
+    display: block;
+    margin: auto;
+    width: 450px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.567);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
 
+.linkwork a {
+    display: block;
+    background-color: blue;
+    width: 60vw;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-size: 13pt;
+}
 
+.linkwork a:hover {
+    background-color: rgb(2, 2, 101);
+}
 
+footer {
+    background-color: #272626;
+    padding: 5px;
+    margin-top: 10vh;
+    text-align: center;
+}
 
+footer a {
+    text-decoration: none;
+}
 
+footer a:hover {
+    text-decoration: underline;
+}
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                        /*Tablets*/
 
 @media screen and (min-width:768px) and (max-width: 1150px) {
     body {
@@ -155,7 +213,7 @@ section#port > .principal > .text > .link > a:hover {
         font-family: Arial, Helvetica, sans-serif;
         overflow-y: hidden;
     }
-    
+                            /*Pagina Portfolio*/
 header#port{
     margin-bottom: 10vh;
 }
@@ -250,43 +308,9 @@ header#port{
 section#port > .principal > .text > .link > a:hover {
     background-color: rgb(9, 50, 145);
 }
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                             /*Telas Grandes*/
 
 
 @media screen and (min-width:1150px) {
@@ -295,7 +319,7 @@ section#port > .principal > .text > .link > a:hover {
         font-family: Arial, Helvetica, sans-serif;
         overflow-y: hidden;
     }
-    
+                            /*Pagina Portfolio*/
    header#port > h1 {
     width: 200px;
     text-align: center;
@@ -395,3 +419,4 @@ section#port > .principal > .text > .link > a:hover {
     background-color: rgb(9, 50, 145);
 }
 }
+
